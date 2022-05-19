@@ -6,6 +6,10 @@ body{
     font-family: 'Nanum Gothic', sans-serif;
 }
 
+hr{
+    margin: 2rem 0rem;
+}
+
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -31,6 +35,13 @@ body{
     border: 1px solid var(--primary-color);
     border-radius:0.5rem;
     color: var(--primary-color);
+}
 
+.list-unordered-list{
+list-style: none;
+}
 
+.list-unordered-inline-list{
+    display:inline;
+    padding:0rem 0.5rem;
 }
