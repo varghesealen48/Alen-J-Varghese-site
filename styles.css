@@ -30,11 +30,13 @@ hr{
     text-decoration: none;
     padding:0.5rem 1rem;
 
+
 }
 .link-primary{
     background-color:var(--primary-color);
     border-radius:0.5rem;
     color:white;
+
 }
 
 .link-secondary{
@@ -104,7 +106,7 @@ padding: 2rem;
 }
 
 .section h1{
-text-align: center;
+text-align: center; 
 
 }
 
@@ -124,4 +126,9 @@ text-align: center;
 
 .footer .link{
     color:white;
+}
+
+.footer-heading{
+    font-weight: bold;
+    font-size: large;
 }
