@@ -2,6 +2,9 @@
 :root{
     --primary-color:#84cc16;
     --grey:#a8a29e;
+    --offwhite:#d4d4d4
+    ;
+
 
 }
 body{
@@ -89,4 +92,21 @@ list-style: none;
 .hero .hero-heading{
 color:var(--grey);
 padding-top: 1rem;
+}
+
+.hero .hero-heading .highlight{
+    color:var(--primary-color);
+}
+.section{
+padding: 2rem;
+}
+
+.section h1{
+text-align: center;
+
+}
+
+.grey{
+    background-color: var(--offwhite);
+
 }
